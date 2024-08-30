@@ -1,11 +1,8 @@
 {
   "builds": [
     {
-      "src": "src/main.rs",
-      "use": "@vercel/rust"
+      "src": "Dockerfile",
+      "use": "@vercel/docker"
     }
-  ],
-  "routes": [
-    { "src": "/(.*)", "dest": "/" }
   ]
 }
